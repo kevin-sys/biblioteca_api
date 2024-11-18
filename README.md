@@ -20,3 +20,20 @@
 
    ```bash
    docker build -t biblioteca-api .
+
+2. **Ejecuta el contenedor**
+
+   ```bash
+   docker run -p 8000:8000 biblioteca-api
+
+
+3. **Accede a Swagger para cononocer los Endpoint**
+
+   ```bash
+   http://localhost:8000/docs
+
+4. **Para ejecutar pruebas, asegúrate de tener pytest instalado. Luego, puedes ejecutar**
+
+   ```bash
+   pytest
+
