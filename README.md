@@ -9,10 +9,14 @@
 - Docker
 - SQLAlchemy (base de datos relacional)
 ---
-## 🛠 **INSTALACION Y EJECUCIÓN**
-
-
+## 🛠 **Instalación de herramientas necesarias**
 
 - **Instalar Docker**
 - **Instalar Python**
 - **Clona el repositorio https://github.com/kevin-sys/biblioteca_api.git**
+
+
+1. **Construye la imagen Docker**
+
+   ```bash
+   docker build -t biblioteca-api .
