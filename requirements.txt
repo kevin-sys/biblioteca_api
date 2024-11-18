@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2
+pytest
+pytest-asyncio
+alembic
+pydantic
+python-dotenv
